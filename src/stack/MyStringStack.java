@@ -31,9 +31,7 @@ public class MyStringStack {
      * @return      the String on top of the stack
      * @throws      NoSuchElementException if there are no elements on the stack
      * @see         String
-     */
-    stack.push (s1);
-    
+     */    
     public String pop() throws NoSuchElementException {
     	//throw new NoSuchElementException();
     	String result = v.lastElement();
